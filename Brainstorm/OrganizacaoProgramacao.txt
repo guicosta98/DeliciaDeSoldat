@@ -18,3 +18,9 @@ Parent Class pra cada habilidade de movimentação
 			Dano causado
 			Área de impacto
 			"vida" do projétil
+
+Criar Pickups
+	Vida
+	Munição
+
+Teste multiplayer

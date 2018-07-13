@@ -1,4 +1,4 @@
-﻿Log file open, 07/12/18 21:29:57
+﻿Log file open, 07/12/18 22:06:04
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Soldelicia
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1575902325) SRandInit(-1575902318).
+LogInit: Display: RandInit(-606745864) SRandInit(-606745850).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.234194
+LogStats: Stats thread started at 0.240879
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -194,165 +194,177 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.07.13-00.30.00:701][  0]LogInit: Selected Device Profile: [Windows]
-[2018.07.13-00.30.00:701][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.07.13-00.30.00:719][  0]LogInit: Computer: DESKTOP-94QAMBB
-[2018.07.13-00.30.00:719][  0]LogInit: User: victo
-[2018.07.13-00.30.00:719][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.07.13-00.30.00:719][  0]LogInit: High frequency timer resolution =14.318180 MHz
-[2018.07.13-00.30.00:719][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.07.13-00.30.00:719][  0]LogMemory: Platform Memory Stats for Windows
-[2018.07.13-00.30.00:719][  0]LogMemory: Process Physical Memory: 273.83 MB used, 273.83 MB peak
-[2018.07.13-00.30.00:719][  0]LogMemory: Process Virtual Memory: 269.90 MB used, 269.90 MB peak
-[2018.07.13-00.30.00:719][  0]LogMemory: Physical Memory: 7302.64 MB used,  8981.53 MB free, 16284.16 MB total
-[2018.07.13-00.30.00:720][  0]LogMemory: Virtual Memory: 4764.96 MB used,  8981.53 MB free, 134217728.00 MB total
-[2018.07.13-00.30.01:059][  0]LogInit: Overriding language with editor language configuration option (en).
-[2018.07.13-00.30.01:059][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2018.07.13-00.30.01:586][  0]LogInit: Setting process to per monitor DPI aware
-[2018.07.13-00.30.02:078][  0]LogD3D11RHI: D3D11 adapters:
-[2018.07.13-00.30.02:178][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R9 380 Series' (Feature Level 11_0)
-[2018.07.13-00.30.02:178][  0]LogD3D11RHI:       4071/0/8142 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2018.07.13-00.30.02:182][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.07.13-00.30.02:182][  0]LogD3D11RHI:       0/0/8142 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.07.13-00.30.02:182][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.07.13-00.30.02:193][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.07.13-00.30.02:193][  0]LogD3D11RHI:     GPU DeviceId: 0x6939 (for the marketing name, search the web for "GPU Device Id")
-[2018.07.13-00.30.02:193][  0]LogWindows: EnumDisplayDevices:
-[2018.07.13-00.30.02:194][  0]LogWindows:    0. 'AMD Radeon (TM) R9 380 Series' (P:1 D:1)
-[2018.07.13-00.30.02:194][  0]LogWindows:    1. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
-[2018.07.13-00.30.02:194][  0]LogWindows:    2. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
-[2018.07.13-00.30.02:195][  0]LogWindows:    3. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
-[2018.07.13-00.30.02:195][  0]LogWindows:    4. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
-[2018.07.13-00.30.02:195][  0]LogWindows:    5. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
-[2018.07.13-00.30.02:195][  0]LogWindows:    6. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
-[2018.07.13-00.30.02:196][  0]LogWindows:    7. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
-[2018.07.13-00.30.02:196][  0]LogWindows:    8. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
-[2018.07.13-00.30.02:196][  0]LogWindows:    9. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
-[2018.07.13-00.30.02:197][  0]LogWindows:    10. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
-[2018.07.13-00.30.02:197][  0]LogWindows:    11. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
-[2018.07.13-00.30.02:197][  0]LogWindows:    12. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
-[2018.07.13-00.30.02:197][  0]LogWindows:    13. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
-[2018.07.13-00.30.02:198][  0]LogWindows:    14. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
-[2018.07.13-00.30.02:198][  0]LogWindows:    15. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
-[2018.07.13-00.30.02:198][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.07.13-00.30.02:198][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R9 380 Series
-[2018.07.13-00.30.02:198][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.07.13-00.30.02:198][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.07.13-00.30.02:198][  0]LogRHI: Texture pool is 2850 MB (70% of 4071 MB)
-[2018.07.13-00.30.02:310][  0]LogD3D11RHI: Async texture creation enabled
-[2018.07.13-00.30.02:324][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2018.07.13-00.30.02:326][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/victo/Documents/github/DeliciaDeSoldat/Projeto/Soldelicia/Intermediate/Shaders/WorkingDirectory/7324/).
-[2018.07.13-00.30.02:326][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/victo/AppData/Local/Temp/UnrealShaderWorkingDir/70E1819C4C106CF33028C7A3A5591053/'.
-[2018.07.13-00.30.02:326][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.07.13-00.30.03:984][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.07.13-00.30.04:105][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.07.13-00.30.04:234][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.07.13-00.30.04:352][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.07.13-00.30.04:473][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.07.13-00.30.04:591][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.07.13-00.30.04:711][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.07.13-00.30.04:832][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.07.13-00.30.04:937][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.07.13-00.30.05:053][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.07.13-00.30.05:168][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.07.13-00.30.05:281][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.07.13-00.30.05:395][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.07.13-00.30.05:509][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.07.13-00.30.05:742][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.07.13-00.30.05:742][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.07.13-00.30.05:859][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.07.13-00.30.05:955][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.07.13-00.30.06:136][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.07.13-00.30.06:195][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.07.13-00.30.06:310][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.07.13-00.30.06:426][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.07.13-00.30.06:540][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.07.13-00.30.06:656][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.07.13-00.30.06:656][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.07.13-00.30.07:771][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.07.13-00.30.07:901][  0]LogDerivedDataCache: Loaded boot cache 0.13s 78MB C:/Users/victo/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.07.13-00.30.07:901][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/victo/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.07.13-00.30.07:901][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/victo/Documents/github/DeliciaDeSoldat/Projeto/Soldelicia/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.07.13-00.30.07:901][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.07.13-00.30.07:901][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/victo/Documents/github/DeliciaDeSoldat/Projeto/Soldelicia/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.07.13-00.30.07:901][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.07.13-00.30.07:924][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.07.13-00.30.07:938][  0]LogDerivedDataCache: Using Local data cache path C:/Users/victo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.07.13-00.30.07:955][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.07.13-00.30.07:955][  0]LogSlate: Using Freetype 2.6.0
-[2018.07.13-00.30.07:956][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.07.13-00.30.07:956][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.07.13-00.30.08:586][  0]LogInit: Selected Device Profile: [Windows]
-[2018.07.13-00.30.09:200][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.07.13-00.30.09:303][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.07.13-00.30.09:303][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.07.13-00.30.09:303][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.07.13-00.30.09:303][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.07.13-00.30.09:303][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.07.13-00.30.09:473][  0]LogNetVersion: Soldelicia , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2139745693)
-[2018.07.13-00.30.09:781][  0]LogAssetRegistry: FAssetRegistry took 0.0302 seconds to start up
-[2018.07.13-00.30.10:708][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.076769 seconds
-[2018.07.13-00.30.10:716][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.07.13-00.30.10:716][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
-[2018.07.13-00.30.10:716][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.07.13-00.30.10:848][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.07.13-00.30.16:498][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.07.13-00.30.16:590][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.07.13-00.30.18:195][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.07.13-00.30.19:181][  0]SourceControl: Source control is disabled
-[2018.07.13-00.30.19:181][  0]SourceControl: Source control is disabled
-[2018.07.13-00.30.19:319][  0]SourceControl: Source control is disabled
-[2018.07.13-00.30.19:455][  0]SourceControl: Source control is disabled
-[2018.07.13-00.30.21:525][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.07.13-00.30.22:213][  0]LogOcInput: OculusInput pre-init called
-[2018.07.13-00.30.22:905][  0]LogEngine: Initializing Engine...
-[2018.07.13-00.30.22:910][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.07.13-00.30.23:244][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.07.13-00.30.23:244][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.07.13-00.30.23:555][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.07.13-00.30.23:580][  0]LogInit: XAudio2 using '4 - CCE TV (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.07.13-00.30.23:600][  0]LogInit: FAudioDevice initialized.
-[2018.07.13-00.30.23:791][  0]LogDerivedDataCache: Saved boot cache 0.19s 78MB C:/Users/victo/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.07.13-00.30.23:826][  0]LogInit: Texture streaming: Enabled
-[2018.07.13-00.30.24:065][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.07.13-00.30.24:379][  0]LogInit: Transaction tracking system initialized
-[2018.07.13-00.30.25:151][  0]BlueprintLog: New page: Editor Load
-[2018.07.13-00.30.27:329][  0]LocalizationService: Localization service is disabled
-[2018.07.13-00.30.29:121][  0]LogConsoleResponse: Display: 
-[2018.07.13-00.30.29:492][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.07.13-00.30.29:492][  0]LogCook: Display: Mobile HDR setting 1
-[2018.07.13-00.30.29:492][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.07.13-00.30.29:948][  0]LogFileCache: Scanning file cache for directory 'C:/Users/victo/Documents/github/DeliciaDeSoldat/Projeto/Soldelicia/Content/' took 0.02s
-[2018.07.13-00.30.32:530][  0]SourceControl: Source control is disabled
-[2018.07.13-00.30.32:530][  0]Cmd: MAP LOAD FILE="../../../../../../Users/victo/Documents/github/DeliciaDeSoldat/Projeto/Soldelicia/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.07.13-00.30.32:531][  0]LightingResults: New page: Lighting Build
-[2018.07.13-00.30.32:632][  0]MapCheck: New page: Map Check
-[2018.07.13-00.30.32:632][  0]LightingResults: New page: Lighting Build
-[2018.07.13-00.30.34:745][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.07.13-00.30.34:839][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.07.13-00.30.34:899][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.07.13-00.30.35:040][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 141.088ms to complete.
-[2018.07.13-00.30.35:040][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.510
-[2018.07.13-00.30.35:604][  0]LogCollectionManager: Loaded 0 collections in 0.004174 seconds
-[2018.07.13-00.30.35:835][  0]LogFileCache: Scanning file cache for directory 'C:/Users/victo/Documents/github/DeliciaDeSoldat/Projeto/Soldelicia/Saved/Collections/' took 0.01s
-[2018.07.13-00.30.35:835][  0]LogFileCache: Scanning file cache for directory 'C:/Users/victo/Documents/github/DeliciaDeSoldat/Projeto/Soldelicia/Content/Developers/victo/Collections/' took 0.01s
-[2018.07.13-00.30.35:835][  0]LogFileCache: Scanning file cache for directory 'C:/Users/victo/Documents/github/DeliciaDeSoldat/Projeto/Soldelicia/Content/Collections/' took 0.01s
-[2018.07.13-00.30.35:835][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.07.13-00.30.35:853][  0]LogContentBrowser: Native class hierarchy populated in 0.0166 seconds. Added 2363 classes and 519 folders.
-[2018.07.13-00.30.36:077][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.07.13-00.30.37:325][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.07.13-00.30.37:518][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2018.07.13-00.30.37:782][  0]LogSlate: Took 0.000497 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.07.13-00.30.37:795][  0]LogSlate: Took 0.000419 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.07.13-00.30.37:845][  0]LogSlate: Took 0.016770 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.07.13-00.30.38:270][  0]LogRenderer: Reallocating scene render targets to support 804x340 Format 10 NumSamples 1 (Frame:1).
-[2018.07.13-00.30.38:794][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2018.07.13-00.30.38:794][  0]LogLoad: (Engine Initialization) Total time: 43.82 seconds
-[2018.07.13-00.30.38:794][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.07.13-00.30.38:794][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.07.13-00.30.38:794][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.07.13-00.30.39:206][  0]LogContentStreaming: Texture pool size now 3000 MB
-[2018.07.13-00.30.39:354][  0]LogSlate: Took 0.019313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.07.13-00.30.39:808][  2]LogAssetRegistry: Asset discovery search completed in 30.0498 seconds
-[2018.07.13-00.30.39:810][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.07.13-00.30.39:810][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000048 seconds (updated 0 objects)
+[2018.07.13-01.06.07:950][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.13-01.06.07:950][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.13-01.06.07:968][  0]LogInit: Computer: DESKTOP-94QAMBB
+[2018.07.13-01.06.07:968][  0]LogInit: User: victo
+[2018.07.13-01.06.07:968][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.07.13-01.06.07:968][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2018.07.13-01.06.07:969][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.07.13-01.06.07:969][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.13-01.06.07:969][  0]LogMemory: Process Physical Memory: 273.03 MB used, 273.03 MB peak
+[2018.07.13-01.06.07:969][  0]LogMemory: Process Virtual Memory: 269.82 MB used, 269.82 MB peak
+[2018.07.13-01.06.07:969][  0]LogMemory: Physical Memory: 7593.30 MB used,  8690.86 MB free, 16284.16 MB total
+[2018.07.13-01.06.07:969][  0]LogMemory: Virtual Memory: 4764.96 MB used,  8690.86 MB free, 134217728.00 MB total
+[2018.07.13-01.06.08:305][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.07.13-01.06.08:306][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.07.13-01.06.08:876][  0]LogInit: Setting process to per monitor DPI aware
+[2018.07.13-01.06.09:412][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.13-01.06.09:533][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R9 380 Series' (Feature Level 11_0)
+[2018.07.13-01.06.09:533][  0]LogD3D11RHI:       4071/0/8142 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2018.07.13-01.06.09:536][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.13-01.06.09:536][  0]LogD3D11RHI:       0/0/8142 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.13-01.06.09:536][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.13-01.06.09:549][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.13-01.06.09:549][  0]LogD3D11RHI:     GPU DeviceId: 0x6939 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.13-01.06.09:549][  0]LogWindows: EnumDisplayDevices:
+[2018.07.13-01.06.09:549][  0]LogWindows:    0. 'AMD Radeon (TM) R9 380 Series' (P:1 D:1)
+[2018.07.13-01.06.09:549][  0]LogWindows:    1. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2018.07.13-01.06.09:549][  0]LogWindows:    2. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2018.07.13-01.06.09:549][  0]LogWindows:    3. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2018.07.13-01.06.09:549][  0]LogWindows:    4. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2018.07.13-01.06.09:550][  0]LogWindows:    5. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2018.07.13-01.06.09:550][  0]LogWindows:    6. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2018.07.13-01.06.09:550][  0]LogWindows:    7. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2018.07.13-01.06.09:550][  0]LogWindows:    8. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2018.07.13-01.06.09:551][  0]LogWindows:    9. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2018.07.13-01.06.09:551][  0]LogWindows:    10. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2018.07.13-01.06.09:551][  0]LogWindows:    11. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2018.07.13-01.06.09:552][  0]LogWindows:    12. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2018.07.13-01.06.09:552][  0]LogWindows:    13. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2018.07.13-01.06.09:552][  0]LogWindows:    14. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2018.07.13-01.06.09:552][  0]LogWindows:    15. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2018.07.13-01.06.09:553][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.07.13-01.06.09:553][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R9 380 Series
+[2018.07.13-01.06.09:553][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.07.13-01.06.09:553][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.07.13-01.06.09:553][  0]LogRHI: Texture pool is 2850 MB (70% of 4071 MB)
+[2018.07.13-01.06.09:676][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.13-01.06.09:690][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2018.07.13-01.06.09:692][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/victo/Documents/github/DeliciaDeSoldat/Projeto/Soldelicia/Intermediate/Shaders/WorkingDirectory/6760/).
+[2018.07.13-01.06.09:693][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/victo/AppData/Local/Temp/UnrealShaderWorkingDir/FD9DD93B47678950E676B9BB088F7F32/'.
+[2018.07.13-01.06.09:693][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.07.13-01.06.11:388][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.07.13-01.06.11:512][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.07.13-01.06.11:635][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.07.13-01.06.11:761][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.07.13-01.06.11:890][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.07.13-01.06.12:014][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.13-01.06.12:142][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.13-01.06.12:272][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.13-01.06.12:387][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.07.13-01.06.12:513][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.07.13-01.06.12:635][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.07.13-01.06.12:755][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.07.13-01.06.12:874][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.07.13-01.06.12:993][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.07.13-01.06.13:235][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.07.13-01.06.13:235][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.07.13-01.06.13:354][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.13-01.06.13:455][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.07.13-01.06.13:643][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.07.13-01.06.13:705][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.07.13-01.06.13:825][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.07.13-01.06.13:947][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.07.13-01.06.14:069][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.07.13-01.06.14:188][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.07.13-01.06.14:188][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.07.13-01.06.15:345][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.07.13-01.06.15:476][  0]LogDerivedDataCache: Loaded boot cache 0.13s 78MB C:/Users/victo/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.07.13-01.06.15:476][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/victo/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.07.13-01.06.15:476][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/victo/Documents/github/DeliciaDeSoldat/Projeto/Soldelicia/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.13-01.06.15:477][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.07.13-01.06.15:477][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/victo/Documents/github/DeliciaDeSoldat/Projeto/Soldelicia/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.07.13-01.06.15:477][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.07.13-01.06.15:500][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.07.13-01.06.15:514][  0]LogDerivedDataCache: Using Local data cache path C:/Users/victo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.07.13-01.06.15:532][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.13-01.06.15:533][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.13-01.06.15:534][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.13-01.06.15:534][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.13-01.06.16:178][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.13-01.06.16:927][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.07.13-01.06.17:034][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.07.13-01.06.17:034][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.07.13-01.06.17:034][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.07.13-01.06.17:034][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.07.13-01.06.17:034][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.07.13-01.06.17:097][  0]LogNetVersion: Soldelicia , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2139745693)
+[2018.07.13-01.06.17:418][  0]LogAssetRegistry: FAssetRegistry took 0.0297 seconds to start up
+[2018.07.13-01.06.18:374][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.078655 seconds
+[2018.07.13-01.06.18:381][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.07.13-01.06.18:381][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.07.13-01.06.18:381][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.07.13-01.06.18:519][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.07.13-01.06.24:334][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.07.13-01.06.24:425][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.07.13-01.06.26:078][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.07.13-01.06.27:111][  0]SourceControl: Source control is disabled
+[2018.07.13-01.06.27:111][  0]SourceControl: Source control is disabled
+[2018.07.13-01.06.27:252][  0]SourceControl: Source control is disabled
+[2018.07.13-01.06.27:397][  0]SourceControl: Source control is disabled
+[2018.07.13-01.06.29:530][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.13-01.06.30:250][  0]LogOcInput: OculusInput pre-init called
+[2018.07.13-01.06.30:958][  0]LogEngine: Initializing Engine...
+[2018.07.13-01.06.30:963][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.07.13-01.06.31:305][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.13-01.06.31:305][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.13-01.06.31:649][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.07.13-01.06.31:676][  0]LogInit: XAudio2 using '4 - CCE TV (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.13-01.06.31:695][  0]LogInit: FAudioDevice initialized.
+[2018.07.13-01.06.31:885][  0]LogDerivedDataCache: Saved boot cache 0.19s 78MB C:/Users/victo/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.07.13-01.06.31:910][  0]LogInit: Texture streaming: Enabled
+[2018.07.13-01.06.32:152][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.07.13-01.06.32:477][  0]LogInit: Transaction tracking system initialized
+[2018.07.13-01.06.33:273][  0]BlueprintLog: New page: Editor Load
+[2018.07.13-01.06.35:517][  0]LocalizationService: Localization service is disabled
+[2018.07.13-01.06.37:361][  0]LogConsoleResponse: Display: 
+[2018.07.13-01.06.37:720][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.07.13-01.06.37:720][  0]LogCook: Display: Mobile HDR setting 1
+[2018.07.13-01.06.37:720][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.07.13-01.06.38:420][  0]LogFileCache: Scanning file cache for directory 'C:/Users/victo/Documents/github/DeliciaDeSoldat/Projeto/Soldelicia/Content/' took 0.02s
+[2018.07.13-01.06.40:868][  0]SourceControl: Source control is disabled
+[2018.07.13-01.06.40:869][  0]Cmd: MAP LOAD FILE="../../../../../../Users/victo/Documents/github/DeliciaDeSoldat/Projeto/Soldelicia/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.13-01.06.40:869][  0]LightingResults: New page: Lighting Build
+[2018.07.13-01.06.40:977][  0]MapCheck: New page: Map Check
+[2018.07.13-01.06.40:977][  0]LightingResults: New page: Lighting Build
+[2018.07.13-01.06.41:680][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.07.13-01.06.41:691][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.13-01.06.41:745][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.13-01.06.41:893][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 148.273ms to complete.
+[2018.07.13-01.06.41:893][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.025
+[2018.07.13-01.06.42:098][  0]LogCollectionManager: Loaded 0 collections in 0.004063 seconds
+[2018.07.13-01.06.42:257][  0]LogFileCache: Scanning file cache for directory 'C:/Users/victo/Documents/github/DeliciaDeSoldat/Projeto/Soldelicia/Saved/Collections/' took 0.01s
+[2018.07.13-01.06.42:257][  0]LogFileCache: Scanning file cache for directory 'C:/Users/victo/Documents/github/DeliciaDeSoldat/Projeto/Soldelicia/Content/Developers/victo/Collections/' took 0.01s
+[2018.07.13-01.06.42:257][  0]LogFileCache: Scanning file cache for directory 'C:/Users/victo/Documents/github/DeliciaDeSoldat/Projeto/Soldelicia/Content/Collections/' took 0.01s
+[2018.07.13-01.06.42:257][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.07.13-01.06.42:272][  0]LogContentBrowser: Native class hierarchy populated in 0.0150 seconds. Added 2363 classes and 519 folders.
+[2018.07.13-01.06.42:431][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.07.13-01.06.42:533][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.07.13-01.06.42:640][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.07.13-01.06.42:661][  0]LogSlate: Took 0.000368 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.13-01.06.42:664][  0]LogSlate: Took 0.000380 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.07.13-01.06.42:673][  0]LogSlate: Took 0.000440 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.07.13-01.06.42:817][  0]LogRenderer: Reallocating scene render targets to support 804x340 Format 10 NumSamples 1 (Frame:1).
+[2018.07.13-01.06.43:090][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.07.13-01.06.43:090][  0]LogLoad: (Engine Initialization) Total time: 40.67 seconds
+[2018.07.13-01.06.43:090][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.07.13-01.06.43:090][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.07.13-01.06.43:090][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.07.13-01.06.43:100][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.07.13-01.06.43:124][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.07.13-01.06.43:186][  0]LogSlate: Took 0.000413 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.07.13-01.06.43:215][  1]LogAssetRegistry: Asset discovery search completed in 25.8197 seconds
+[2018.07.13-01.06.43:217][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.07.13-01.06.43:217][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
+[2018.07.13-01.06.57:459][613]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.07.13-01.06.58:067][613]LogSlate: Took 0.000317 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.13-01.06.58:302][613]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
+[2018.07.13-01.06.59:780][613]LogSlate: Took 0.017446 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.07.13-01.07.00:296][614]LogSlate: Took 0.016743 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.07.13-01.07.27:692][430]LogSlate: Took 0.010832 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.07.13-01.07.52:034][419]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.07.13-01.08.31:602][348]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.07.13-01.08.33:883][461]LogSavePackage: Save=122.04ms
+[2018.07.13-01.08.33:883][461]LogSavePackage: Moving '../../../../../../Users/victo/Documents/github/DeliciaDeSoldat/Projeto/Soldelicia/Saved/ThirdPersonCharacter3F0D9FD64F685338A590C4A246C8831A.tmp' to '../../../../../../Users/victo/Documents/github/DeliciaDeSoldat/Projeto/Soldelicia/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.07.13-01.08.33:896][461]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/victo/Documents/github/DeliciaDeSoldat/Projeto/Soldelicia/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
