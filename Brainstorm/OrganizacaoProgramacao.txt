@@ -1,0 +1,20 @@
+Criar Parent Class
+		Personagem
+			Vida
+			Max move speed
+Parent Class pra cada habilidade de movimentação
+			Carga da movimentação
+			Tempo de Recarga
+
+		Arma
+			Quantidade de balas
+			Capacidade do cartucho
+			Balas no pente
+			Cadência
+			Tempo de Reloading
+
+		Projétil
+			Max speed
+			Dano causado
+			Área de impacto
+			"vida" do projétil
