@@ -8,7 +8,7 @@ Parent Class pra cada habilidade de movimentação
 
 		Arma
 			Quantidade de balas
-			Capacidade do cartucho
+			Capacidade do cartucho(Definir Padrão)
 			Balas no pente
 			Cadência
 			Tempo de Reloading
